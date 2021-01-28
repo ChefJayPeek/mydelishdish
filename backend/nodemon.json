@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "jay",
+        "DB_PASSWORD": "M9a9n1TusPsm6o5A",
+        "DB_NAME": "mydelishdish",
+        "GOOGLE_API_KEY": "AIzaSyDreqLxz6K8qrT1jP5OLgZSWzWld3MHVo4",
+        "JWT_KEY": "supersecret"
+    }
+}
