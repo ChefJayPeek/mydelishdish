@@ -65,7 +65,7 @@ const UpdateDish = () => {
         event.preventDefault();
         try {
             await sendRequest(
-                process.env.REACT_APP_BACKEND_URL + `dishes/${dishId}`,
+                `${process.env.REACT_APP_BACKEND_URL}/dishes/${dishId}`,
                 'PATCH',
                 JSON.stringify({
                     title: formState.inputs.title.value,

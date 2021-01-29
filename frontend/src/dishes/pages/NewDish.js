@@ -61,7 +61,7 @@ const NewDish = () => {
             formData.append('name', formState.inputs.name.value);
             formData.append('image', formState.inputs.image.value);
             await sendRequest(
-                process.env.REACT_APP_BACKEND_URL + '/dishes', 
+                `${process.env.REACT_APP_BACKEND_URL}/dishes`, 
                 'POST',
                 formData,
                 {Authorization: 'Bearer ' + auth.token}
